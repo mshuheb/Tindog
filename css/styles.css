@@ -1,0 +1,142 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  padding: 10% auto 10% auto;
+}
+p{
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#title {
+  background-color: #2F8F9D;
+  color: #fff;
+}
+.container-fluid-lg{
+  padding: 3% 15% 7%;
+}
+.colored-section {
+  background-color: #82DBD8;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+.navbar {
+  padding-bottom: 4.5rem !important;
+}
+
+
+.navbar-brand {
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+.nav-item {
+  padding:0 18px !important;
+}
+
+.nav-link {
+  font-size: 1.2rem !important;
+  font-family: "Montserrat-Light";
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 30%;
+}
+.positioning {
+  position: relative;
+}
+#features {
+  padding: 7% 14%;
+  position: relative;
+  z-index: 1;
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #B3E8E5;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #3BACB6;
+}
+.h22 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+#testimonials {
+  text-align: center;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.card {
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+@media (max-width: 992px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  white-space: normal;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
